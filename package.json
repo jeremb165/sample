@@ -4,14 +4,17 @@
   "description": "A small Node.js CLI tool that prints 3 jokes when run.",
   "main": "jokes.js",
   "bin": {
-    "jokes": "jokes.js"
+    "jokes": "jokes.js",
+    "weather": "weather.js"
   },
   "scripts": {
-    "start": "node jokes.js"
+    "start": "node jokes.js",
+    "weather": "node weather.js"
   },
   "keywords": [
     "cli",
     "jokes",
+    "weather",
     "fun"
   ],
   "license": "MIT"
