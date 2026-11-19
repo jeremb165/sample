@@ -1,6 +1,6 @@
 # sample
 
-A small Node.js CLI tool that prints 3 jokes when run.
+A small Node.js CLI tool that prints 3 Ohio State jokes when run.
 
 ## Usage
 
@@ -31,9 +31,9 @@ jokes
 Example output:
 
 ```
-Here are 3 jokes for you:
+Here are 3 Ohio State jokes for you:
 
-1. Why do programmers prefer dark mode? Because light attracts bugs.
-2. I told my computer I needed a break, and now it won't stop sending me KitKat ads.
-3. Why did the developer go broke? Because he used up all his cache.
+1. Why did the Ohio State fan bring a ladder to the game? Because they heard the Buckeyes were going all the way to the top.
+2. How many Michigan fans does it take to change a lightbulb? None — they just sit in the dark and talk about how great it was in 1997.
+3. Why is it so windy in Ohio Stadium? Because 100,000 Buckeye fans are all screaming 'O-H-I-O' at once.
 ```
