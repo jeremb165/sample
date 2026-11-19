@@ -1,7 +1,7 @@
 {
   "name": "jokes-cli",
   "version": "1.0.0",
-  "description": "A small Node.js CLI tool that prints 3 jokes when run.",
+  "description": "A small Node.js CLI tool that prints 20 jokes when run.",
   "main": "jokes.js",
   "bin": {
     "jokes": "jokes.js"
