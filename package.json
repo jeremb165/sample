@@ -1,0 +1,14 @@
+{
+  "name": "reverse-text",
+  "version": "1.0.0",
+  "description": "A small Node.js script that takes text input and outputs it backwards.",
+  "main": "reverse.js",
+  "bin": {
+    "reverse": "reverse.js"
+  },
+  "scripts": {
+    "start": "node reverse.js",
+    "test": "node test/reverse.test.js"
+  },
+  "license": "MIT"
+}
