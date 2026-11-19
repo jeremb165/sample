@@ -7,7 +7,9 @@
     "jokes": "jokes.js"
   },
   "scripts": {
-    "start": "node jokes.js"
+    "start": "node jokes.js",
+    "weather": "node lambda.js",
+    "test": "node --test"
   },
   "keywords": [
     "cli",
