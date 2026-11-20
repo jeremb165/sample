@@ -8,11 +8,21 @@ const jokes = [
   "Why did the developer go broke? Because he used up all his cache.",
 ];
 
-function main() {
-  console.log("Here are 3 jokes for you:\n");
-  jokes.forEach((joke, index) => {
-    console.log(`${index + 1}. ${joke}`);
+function formatJokes(list) {
+  const lines = ["Here are 3 jokes for you:\n"];
+  list.forEach((joke, index) => {
+    lines.push(`${index + 1}. ${joke}`);
   });
+  return lines.join("\n");
 }
 
-main();
+function main() {
+  console.log(formatJokes(jokes));
+}
+
+// Only run when executed directly as a CLI, so the module can be imported in tests.
+if (require.main === module) {
+  main();
+}
+
+module.exports = { jokes, formatJokes, main };

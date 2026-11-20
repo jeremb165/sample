@@ -7,12 +7,16 @@
     "jokes": "jokes.js"
   },
   "scripts": {
-    "start": "node jokes.js"
+    "start": "node jokes.js",
+    "test": "jest"
   },
   "keywords": [
     "cli",
     "jokes",
     "fun"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
 }
